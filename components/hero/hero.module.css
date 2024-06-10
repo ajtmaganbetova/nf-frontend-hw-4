@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 240px;
+    height: 248px;
+}
+
+.title {
+    font-size: 36px;
+}
+
+@media screen and (max-width: 1280px) {
+    .title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 28px;
+    }
+    .container {
+        padding: 24px 0px;
+    }
+}

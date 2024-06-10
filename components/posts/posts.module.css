@@ -1,0 +1,58 @@
+.image {
+  height: 150px;
+}
+
+.container {
+  padding: 0 240px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardAll {
+  height: 310px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 70%;
+}
+
+.cardTitle {
+  font-weight: 600;
+}
+
+.description {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1280px) {
+  .cardTitle {
+    font-size: 18px;
+  }
+  .cardBody {
+    font-size: 14px;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cardTitle {
+    font-size: 16px;
+  }
+  .cardBody {
+    font-size: 12px;
+    gap: 10px;
+  }
+  .container {
+    padding: 24px 0px;
+  }
+  .author,
+  .readTime {
+    font-size: 10px;
+  }
+}
